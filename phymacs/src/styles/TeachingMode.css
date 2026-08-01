@@ -1,0 +1,33 @@
+.pm-teaching-mode__row {
+  row-gap: 20px;
+}
+
+.pm-teaching-mode__card {
+  background: var(--pm-white);
+  border: 1px solid var(--pm-line);
+  border-radius: var(--pm-radius-lg);
+  padding: 30px;
+  box-shadow: var(--pm-shadow-sm);
+  height: 100%;
+}
+
+.pm-teaching-mode__title {
+  color: var(--pm-navy);
+  margin: 16px 0 4px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.pm-teaching-mode__tagline {
+  color: var(--pm-gold);
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.pm-teaching-mode__intro {
+  color: var(--pm-muted);
+  line-height: 1.75;
+  font-size: 14.5px;
+  margin-bottom: 18px;
+}

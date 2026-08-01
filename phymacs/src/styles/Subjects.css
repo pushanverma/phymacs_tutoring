@@ -1,0 +1,110 @@
+.pm-zigzag {
+  align-items: center;
+  row-gap: 22px;
+  margin-bottom: 64px;
+}
+
+.pm-zigzag--flip .col-lg-6:first-child {
+  order: 2;
+}
+.pm-zigzag--flip .col-lg-6:last-child {
+  order: 1;
+}
+
+@media (max-width: 991.98px) {
+  .pm-zigzag--flip .col-lg-6:first-child,
+  .pm-zigzag--flip .col-lg-6:last-child {
+    order: initial;
+  }
+  .pm-zigzag {
+    margin-bottom: 44px;
+  }
+}
+
+.pm-zigzag__head {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 6px;
+}
+
+.pm-zigzag__title {
+  margin: 0;
+  color: var(--pm-navy);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.pm-zigzag__sub {
+  color: var(--pm-gold);
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 2px;
+}
+
+.pm-zigzag__body {
+  color: var(--pm-muted);
+  line-height: 1.75;
+  font-size: 14.5px;
+  margin: 14px 0;
+}
+
+.pm-zigzag__points {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 9px;
+}
+
+.pm-zigzag__points li {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  color: var(--pm-text);
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.pm-zigzag__dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-top: 8px;
+  flex-shrink: 0;
+}
+
+.pm-zigzag__card {
+  border: 1px solid;
+  border-radius: 14px;
+  padding: 46px 30px;
+  text-align: center;
+  min-height: 210px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.pm-zigzag__card-title {
+  font-weight: 700;
+  color: var(--pm-navy);
+  font-size: 16px;
+  margin-top: 14px;
+}
+
+.pm-zigzag__card-sub {
+  color: var(--pm-muted);
+  font-size: 13.5px;
+  margin-top: 6px;
+  line-height: 1.6;
+  max-width: 300px;
+}
+
+@media (max-width: 767.98px) {
+  .pm-zigzag__card {
+    padding: 34px 22px;
+    min-height: 180px;
+  }
+}

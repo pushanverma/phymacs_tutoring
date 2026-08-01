@@ -1,0 +1,10 @@
+.pm-why-choose__subheading {
+  color: var(--pm-navy);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 22px;
+}
+
+.pm-why-choose__banner {
+  margin-top: 40px;
+}

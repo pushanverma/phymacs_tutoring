@@ -1,0 +1,134 @@
+.pm-contact {
+  row-gap: 24px;
+}
+
+.pm-contact__form-card,
+.pm-contact__socials-card,
+.pm-contact__info-card {
+  background: var(--pm-white);
+  border-radius: var(--pm-radius-lg);
+  border: 1px solid var(--pm-line);
+  padding: 28px;
+  box-shadow: var(--pm-shadow-sm);
+}
+
+.pm-contact__heading {
+  color: var(--pm-navy);
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.pm-contact__heading--sm {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+
+.pm-contact__fields {
+  display: grid;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.pm-contact__input {
+  width: 100%;
+  padding: 13px 14px;
+  font-size: 16px;
+  border-radius: 9px;
+  border: 1px solid var(--pm-line);
+  font-family: inherit;
+  box-sizing: border-box;
+  color: var(--pm-text);
+}
+
+.pm-contact__textarea {
+  min-height: 110px;
+  resize: vertical;
+}
+
+.pm-contact__socials-card {
+  margin-top: 20px;
+}
+
+.pm-contact__social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 14px 8px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12.5px;
+  min-height: 72px;
+  border: 1px solid;
+  box-sizing: border-box;
+}
+
+.pm-contact__map-card {
+  background: var(--pm-white);
+  padding: 6px;
+  border-radius: var(--pm-radius-lg);
+  border: 1px solid var(--pm-line);
+  box-shadow: var(--pm-shadow-sm);
+  overflow: hidden;
+}
+
+.pm-contact__map {
+  width: 100%;
+  height: 320px;
+  border: 0;
+  border-radius: 10px;
+  display: block;
+}
+
+.pm-contact__info-card {
+  background: linear-gradient(135deg, var(--pm-navy), var(--pm-navy-dark));
+  color: var(--pm-white);
+  border: none;
+  margin-top: 20px;
+}
+
+.pm-contact__info-row {
+  display: flex;
+  gap: 13px;
+  align-items: flex-start;
+}
+
+.pm-contact__info-icon {
+  color: var(--pm-gold);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.pm-contact__info-title {
+  font-weight: 700;
+  color: var(--pm-gold-light);
+  margin-bottom: 5px;
+  font-size: 14.5px;
+}
+
+.pm-contact__info-body {
+  line-height: 1.7;
+  font-size: 14px;
+}
+
+.pm-contact__info-divider {
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  margin: 18px 0 0;
+  padding-top: 18px;
+  display: grid;
+  gap: 14px;
+}
+
+.pm-contact__info-line {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (max-width: 767.98px) {
+  .pm-contact__map {
+    height: 250px;
+  }
+}

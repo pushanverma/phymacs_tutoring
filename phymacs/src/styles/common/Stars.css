@@ -1,0 +1,13 @@
+.pm-stars {
+  display: flex;
+  gap: 3px;
+}
+
+.pm-stars__star {
+  color: var(--pm-line);
+  font-size: 17px;
+}
+
+.pm-stars__star--filled {
+  color: var(--pm-gold);
+}

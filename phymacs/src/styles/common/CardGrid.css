@@ -1,0 +1,34 @@
+.pm-card-grid {
+  row-gap: 20px;
+}
+
+.pm-card-grid__card {
+  background: var(--pm-white);
+  border: 1px solid var(--pm-line);
+  border-radius: var(--pm-radius-lg);
+  padding: 26px;
+  box-shadow: var(--pm-shadow-sm);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.pm-card-grid__title {
+  color: var(--pm-navy);
+  font-size: 17px;
+  margin: 16px 0 4px;
+  font-weight: 700;
+}
+
+.pm-card-grid__sub {
+  font-size: 12.5px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.pm-card-grid__body {
+  color: var(--pm-muted);
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0;
+}

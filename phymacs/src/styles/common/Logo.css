@@ -1,0 +1,20 @@
+.pm-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.pm-logo__text {
+  font-weight: 800;
+  font-size: 19px;
+  color: var(--pm-navy);
+  letter-spacing: -0.4px;
+}
+
+.pm-logo__text--light {
+  color: var(--pm-white);
+}
+
+.pm-logo__accent {
+  color: var(--pm-gold);
+}

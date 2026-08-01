@@ -1,0 +1,56 @@
+.pm-teachers {
+  row-gap: 20px;
+}
+
+.pm-teachers__card {
+  background: var(--pm-white);
+  border-radius: var(--pm-radius-lg);
+  padding: 28px;
+  border: 1px solid var(--pm-line);
+  text-align: center;
+  box-shadow: var(--pm-shadow-sm);
+  height: 100%;
+}
+
+.pm-teachers__avatar {
+  width: 78px;
+  height: 78px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: linear-gradient(135deg, var(--pm-navy), var(--pm-navy-dark));
+  color: var(--pm-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.pm-teachers__name {
+  color: var(--pm-navy);
+  margin: 16px 0 3px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.pm-teachers__role {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.pm-teachers__subjects {
+  color: var(--pm-muted);
+  font-size: 12.5px;
+  margin: 7px 0 12px;
+}
+
+.pm-teachers__bio {
+  color: var(--pm-text);
+  font-size: 13.5px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.pm-teachers__banner {
+  margin-top: 40px;
+}

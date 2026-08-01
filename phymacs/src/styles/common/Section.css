@@ -1,0 +1,25 @@
+.pm-section {
+  padding: 84px 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.pm-section--white {
+  background: var(--pm-white);
+}
+.pm-section--soft {
+  background: var(--pm-soft);
+}
+.pm-section--cream {
+  background: var(--pm-cream);
+}
+
+.pm-section__inner {
+  max-width: 1160px;
+}
+
+@media (max-width: 767.98px) {
+  .pm-section {
+    padding: 56px 0;
+  }
+}

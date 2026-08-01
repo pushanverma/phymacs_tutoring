@@ -1,0 +1,28 @@
+/* Design tokens shared across every component. Import once, globally. */
+:root {
+  --pm-navy: #1b2a4a;
+  --pm-navy-dark: #101a30;
+  --pm-gold: #d4a02a;
+  --pm-gold-light: #f2d483;
+  --pm-cream: #fbf8f1;
+  --pm-white: #ffffff;
+  --pm-text: #2a2f3a;
+  --pm-muted: #5b6472;
+  --pm-line: #e6e1d6;
+  --pm-soft: #f7f5ef;
+
+  --pm-chip-1: #3b6fd4;
+  --pm-chip-2: #2e9e6b;
+  --pm-chip-3: #e0a32e;
+  --pm-chip-4: #8a5cd1;
+  --pm-chip-5: #d9455f;
+  --pm-chip-6: #2fa8a0;
+
+  --pm-radius-sm: 8px;
+  --pm-radius-md: 12px;
+  --pm-radius-lg: 14px;
+  --pm-radius-xl: 16px;
+
+  --pm-shadow-sm: 0 4px 16px rgba(27, 42, 74, 0.05);
+  --pm-shadow-lg: 0 16px 40px rgba(27, 42, 74, 0.24);
+}

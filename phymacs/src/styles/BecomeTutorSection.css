@@ -1,0 +1,69 @@
+.pm-tutor {
+  row-gap: 26px;
+  align-items: flex-start;
+}
+
+.pm-tutor__heading {
+  color: var(--pm-navy);
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 18px;
+  font-weight: 700;
+}
+
+.pm-tutor__perks {
+  display: grid;
+  gap: 12px;
+}
+
+.pm-tutor__perk {
+  display: flex;
+  gap: 14px;
+  background: var(--pm-white);
+  padding: 18px;
+  border-radius: 12px;
+  border: 1px solid var(--pm-line);
+}
+
+.pm-tutor__perk-title {
+  font-weight: 700;
+  color: var(--pm-navy);
+  font-size: 14.5px;
+}
+
+.pm-tutor__perk-body {
+  color: var(--pm-muted);
+  font-size: 13.5px;
+  line-height: 1.6;
+  margin-top: 3px;
+}
+
+.pm-tutor__form-card {
+  background: var(--pm-white);
+  padding: 28px;
+  border-radius: var(--pm-radius-lg);
+  border: 1px solid var(--pm-line);
+  box-shadow: var(--pm-shadow-sm);
+}
+
+.pm-tutor__fields {
+  display: grid;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.pm-tutor__input {
+  width: 100%;
+  padding: 13px 14px;
+  font-size: 16px;
+  border-radius: 9px;
+  border: 1px solid var(--pm-line);
+  font-family: inherit;
+  box-sizing: border-box;
+  color: var(--pm-text);
+}
+
+.pm-tutor__textarea {
+  min-height: 110px;
+  resize: vertical;
+}

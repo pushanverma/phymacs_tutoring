@@ -1,0 +1,94 @@
+.pm-pricing {
+  row-gap: 20px;
+  align-items: stretch;
+}
+
+.pm-pricing__card {
+  background: var(--pm-white);
+  color: var(--pm-text);
+  border-radius: var(--pm-radius-xl);
+  padding: 30px;
+  border: 1px solid var(--pm-line);
+  box-shadow: var(--pm-shadow-sm);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.pm-pricing__card--highlight {
+  background: var(--pm-navy);
+  color: var(--pm-white);
+  border: none;
+  box-shadow: var(--pm-shadow-lg);
+}
+
+.pm-pricing__badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: var(--pm-gold);
+  color: var(--pm-navy-dark);
+  font-size: 10.5px;
+  font-weight: 800;
+  padding: 5px 11px;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+}
+
+.pm-pricing__name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--pm-navy);
+}
+
+.pm-pricing__card--highlight .pm-pricing__name {
+  color: var(--pm-gold-light);
+}
+
+.pm-pricing__price {
+  margin: 14px 0 6px;
+}
+
+.pm-pricing__amount {
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.pm-pricing__period {
+  opacity: 0.68;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.pm-pricing__divider {
+  height: 1px;
+  background: var(--pm-line);
+  margin: 16px 0;
+}
+
+.pm-pricing__card--highlight .pm-pricing__divider {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.pm-pricing__features {
+  display: grid;
+  gap: 11px;
+  margin-bottom: 24px;
+  flex: 1;
+}
+
+.pm-pricing__feature {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  font-size: 13.5px;
+  line-height: 1.55;
+}
+
+.pm-pricing__check {
+  color: var(--pm-gold);
+  flex-shrink: 0;
+  margin-top: 1px;
+}

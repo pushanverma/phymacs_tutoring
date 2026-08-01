@@ -1,0 +1,93 @@
+.pm-about__row {
+  align-items: flex-start;
+  row-gap: 26px;
+}
+
+.pm-about__text {
+  color: var(--pm-muted);
+  line-height: 1.85;
+  font-size: 14.5px;
+}
+
+.pm-about__text p:first-child {
+  margin-top: 0;
+}
+
+.pm-about__card {
+  background: var(--pm-white);
+  border: 1px solid var(--pm-line);
+  border-radius: var(--pm-radius-lg);
+  padding: 26px;
+  box-shadow: var(--pm-shadow-sm);
+}
+
+.pm-about__card-title {
+  color: var(--pm-navy);
+  margin: 0 0 8px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.pm-about__card-text {
+  color: var(--pm-muted);
+  font-size: 14px;
+  line-height: 1.75;
+  margin: 0 0 20px;
+}
+
+.pm-about__card-text--last {
+  margin-bottom: 0;
+}
+
+.pm-about__divider {
+  height: 1px;
+  background: var(--pm-line);
+  margin: 0 0 20px;
+}
+
+.pm-about__pillars-intro {
+  color: var(--pm-navy);
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 44px;
+  margin-bottom: 26px;
+}
+
+.pm-about__pillars {
+  row-gap: 20px;
+}
+
+.pm-about__pillar {
+  text-align: center;
+}
+
+.pm-about__pillar-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--pm-navy);
+  color: var(--pm-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 12px;
+}
+
+.pm-about__pillar-title {
+  font-weight: 700;
+  color: var(--pm-navy);
+  font-size: 14px;
+}
+
+.pm-about__pillar-body {
+  color: var(--pm-muted);
+  font-size: 12.5px;
+  margin-top: 5px;
+  line-height: 1.6;
+}
+
+@media (max-width: 767.98px) {
+  .pm-about__pillars-intro {
+    margin-top: 34px;
+  }
+}
