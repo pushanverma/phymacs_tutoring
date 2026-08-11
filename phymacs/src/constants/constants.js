@@ -231,6 +231,20 @@ export const AUDIENCES = [
     sub: "Any timezone, any country.",
     body: "Live online classes available worldwide, with flexible scheduling that works around your timezone and school commitments.",
   },
+  {
+    title: "11+ Entrance Exam Preparation",
+    accent: CHIP_COLORS[0],
+    icon: "compass",
+    sub: "Maths, non-verbal & verbal reasoning.",
+    body: "Track record of 100% success with past students securing places at Wilmington, Reading and Tunbridge Wells Grammar Schools.",
+  },
+  {
+    title: "International Baccalaureate",
+    accent: CHIP_COLORS[1],
+    icon: "trophy",
+    sub: "IB Maths, Physics & Chemistry.",
+    body: "Track record of securing excellent grades in Maths, Physics and Chemistry IB.",
+  },
 ];
 
 export const DIFFERENTIATORS = [
@@ -338,10 +352,12 @@ export const FAQS = [
 ];
 
 export const PRICING_PLANS = [
-  { name: "Single Subject", price: "£120", period: "/month", features: ["1 subject of choice", "8 live sessions / month", "Weekly worksheets", "Doubt-clearing chat support"], highlight: false },
-  { name: "All-Subject Pack", price: "£360", period: "/month", features: ["All 4 subjects", "32 live sessions / month", "Personalised study plan", "Priority doubt support", "Monthly progress report"], highlight: true },
-  { name: "Crash Course", price: "£200", period: "/ 4 weeks", features: ["Exam-focused intensive", "Daily practice sets", "Mock tests + analysis", "1-on-1 mentor sessions"], highlight: false },
+  { name: "GCSE", price: "£40", period: "/session", features: ["Daily Homework", "Weekly worksheets", "Mock tests"], highlight: false },
+  { name: "A-level", price: "£50", period: "/session", features: ["Daily Homework", "Weekly worksheets", "Mock tests"], highlight: false },
+  { name: "Degree level", price: "£75", period: "/session", features: ["Practise sheets", "Weekly worksheets", "Regular mock exam"], highlight: false },
 ];
+
+export const PRICING_NOTE = "Discount for multiple sessions (all of them)";
 
 export const TEACHERS = [
   { name: "Dr Sudeep Chatterji", role: "Founder & Lead Tutor", subjects: "Physics · Maths · Chemistry · Biology", bio: "A research-oriented educator with a doctorate and years of experience teaching from Grade 6 to degree level. Known for breaking down complex concepts and supporting students with special educational needs.", initials: "SC", accent: CHIP_COLORS[0] },
