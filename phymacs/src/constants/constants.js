@@ -373,10 +373,10 @@ export const TUTOR_PERKS = [
 ];
 
 export const SOCIALS = [
-  { name: "LinkedIn", href: "https://www.linkedin.com", color: "#0A66C2", icon: "linkedin" },
-  { name: "Instagram", href: "https://www.instagram.com", color: "#E1306C", icon: "instagram" },
-  { name: "WhatsApp", href: "https://wa.me/440000000000", color: "#25D366", icon: "whatsapp" },
-  { name: "Facebook", href: "https://www.facebook.com", color: "#1877F2", icon: "facebook" },
+  { name: "LinkedIn", href: "https://www.linkedin.com/in/phymacstutoring/", color: "#0A66C2", icon: "linkedin" },
+  { name: "Instagram", href: "https://www.instagram.com/phymacstutoring/", color: "#E1306C", icon: "instagram" },
+  { name: "WhatsApp", href: "https://wa.me/447404113025", color: "#25D366", icon: "whatsapp" },
+  { name: "Facebook", href: "https://www.facebook.com/profile.php?id=61593262797283", color: "#1877F2", icon: "facebook" },
 ];
 
 export const CONTACT_INFO = {
