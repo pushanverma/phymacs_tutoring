@@ -343,7 +343,7 @@ export const NEWS_ITEMS = [
 ];
 
 export const FAQS = [
-  { q: "Which subjects and grades do you teach?", a: "We teach Physics, Chemistry, Maths and Biology for Grades 6-12, GCSE, A-Level and up to degree-level Mathematics." },
+  { q: "Which subjects and grades do you teach?", a: "We teach Physics, Chemistry, Maths and Biology for Grades 6-13, GCSE, A-Level and up to degree-level Mathematics." },
   { q: "Do you offer both online and in-person classes?", a: "Yes. Online classes are available worldwide, and our Home Educates service offers face-to-face tuition across the UK." },
   { q: "How are the tutors qualified?", a: "Our tutors are highly qualified subject specialists with years of experience, including support for students with special educational needs such as ADHD." },
   { q: "How do I get started?", a: "Simply use the 'Let's Talk' enquiry form or contact us directly. We'll arrange a free consultation to understand your needs." },
