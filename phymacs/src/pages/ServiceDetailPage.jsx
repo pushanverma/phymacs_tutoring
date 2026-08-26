@@ -3,6 +3,8 @@ import PageHero from "../components/common/PageHero";
 import Section from "../components/common/Section";
 import ServiceDetail from "../components/ServiceDetail";
 import { SERVICES } from "../constants/constants";
+import { Helmet } from "react-helmet-async";
+import ogimage from "../assets/images/phymacs_OG_Image.jpg";
 
 /** /services/:serviceKey — full breakdown of a single service format. */
 const ServiceDetailPage = () => {
