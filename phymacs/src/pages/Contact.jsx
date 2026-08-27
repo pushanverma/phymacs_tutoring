@@ -2,7 +2,6 @@ import PageHero from "../components/common/PageHero";
 import Section from "../components/common/Section";
 import ContactSection from "../components/ContactSection";
 import { Helmet } from "react-helmet-async";
-import ogimage from "../assets/images/phymacs_OG_Image.jpg";
 
 /** /contact — enquiry form, socials and map. */
 const Contact = () => (
@@ -28,7 +27,7 @@ const Contact = () => (
         content="Have questions about tutoring or our services? Contact PhyMacs Tutoring to learn more about our programs, tutors, pricing, and how we can help you find the right learning support."
       />
       <meta property="og:site_name" content="PhyMacs Tutoring" />
-      <meta property="og:image" content={ogimage} />
+      <meta property="og:image" content="https://www.phymacstutoring.com/og-image.jpg" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <link rel="canonical" href="https://www.phymacstutoring.com" />

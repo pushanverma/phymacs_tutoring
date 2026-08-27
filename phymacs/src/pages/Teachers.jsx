@@ -2,7 +2,6 @@ import PageHero from "../components/common/PageHero";
 import Section from "../components/common/Section";
 import TeachersSection from "../components/TeachersSection";
 import { Helmet } from "react-helmet-async";
-import ogimage from "../assets/images/phymacs_OG_Image.jpg";
 
 /** /teachers — meet the tutors. */
 const Teachers = () => (
@@ -28,7 +27,7 @@ const Teachers = () => (
         content="Meet the experienced tutors at PhyMacs Tutoring. Explore our teachers, their expertise, and find the right tutor to support your learning goals."
       />
       <meta property="og:site_name" content="PhyMacs Tutoring" />
-      <meta property="og:image" content={ogimage} />
+      <meta property="og:image" content="https://www.phymacstutoring.com/og-image.jpg" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <link rel="canonical" href="https://www.phymacstutoring.com" />

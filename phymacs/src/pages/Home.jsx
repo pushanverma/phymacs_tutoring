@@ -9,7 +9,6 @@ import NewsInsights from "../components/NewsInsights";
 import FAQ from "../components/FAQ";
 import Section from "../components/common/Section";
 import { Helmet } from "react-helmet-async";
-import ogimage from "../assets/images/phymacs_OG_Image.jpg";
 
 /** Landing page: composes every marketing section in order. */
 const Home = () => (
@@ -21,7 +20,7 @@ const Home = () => (
         content="Get personalized tutoring with experienced tutors at PhyMacs. Explore online tutoring services designed to help students understand concepts, improve confidence, and achieve their academic goals."
       />
 
-      <meta property="og:type" content="Home Page" />
+      <meta property="og:type" content="website" />
       <meta property="og:url" content="https://phymacstutoring.com/" />
       <meta
         property="og:title"
@@ -32,7 +31,7 @@ const Home = () => (
         content="Get personalized tutoring with experienced tutors at PhyMacs. Explore online tutoring services designed to help students understand concepts, improve confidence, and achieve their academic goals. "
       />
       <meta property="og:site_name" content="PhyMacs Tutoring" />
-      <meta property="og:image" content={ogimage} />
+      <meta property="og:image" content="https://www.phymacstutoring.com/og-image.jpg" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <link rel="canonical" href="https://www.phymacstutoring.com" />

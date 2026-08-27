@@ -2,7 +2,6 @@ import PageHero from "../components/common/PageHero";
 import Section from "../components/common/Section";
 import About from "../components/About";
 import { Helmet } from "react-helmet-async";
-import ogimage from "../assets/images/phymacs_OG_Image.jpg";
 
 /** /about — company story, mission/vision and commitment pillars. */
 
@@ -28,7 +27,7 @@ const AboutPage = () => (
         content="Learn about PhyMacs Tutoring and our approach to personalized education. We connect students with experienced tutors to provide effective, supportive, and engaging learning. "
       />
       <meta property="og:site_name" content="PhyMacs Tutoring" />
-      <meta property="og:image" content={ogimage} />
+      <meta property="og:image" content="https://www.phymacstutoring.com/og-image.jpg" />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
       <link rel="canonical" href="https://www.phymacstutoring.com" />
